@@ -22,7 +22,7 @@ done
 echo "---------------while loops--------------"
 
 count=2
-while[ $count -eq 20 ]
+while[ $count==20 ]
 do 
 	#body
 	echo $count
@@ -36,3 +36,15 @@ done
 #-ge = greater than equals to 
 #-eq = equals to
 
+echo "-------------------Ifelse--------------------"
+#conditional statement
+
+isZero=true
+if[isZero==true]
+then
+	#then block
+	echo "inside then block"
+else
+	#else block
+	echo "inside else block"
+fi
